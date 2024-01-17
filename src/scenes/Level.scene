@@ -1,0 +1,424 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "07afe692-458e-4513-b8be-fdfa069b29da",
+            "label": "container_background",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c94f83f1-29be-45ef-b479-b5c245002860",
+                    "label": "background",
+                    "texture": {
+                        "key": "Background"
+                    },
+                    "x": 540,
+                    "y": 974
+                },
+                {
+                    "type": "Image",
+                    "id": "b46021c3-5c99-417f-a8a7-5f0d36815f30",
+                    "label": "buttom_wood",
+                    "texture": {
+                        "key": "buttom-wood"
+                    },
+                    "x": 545,
+                    "y": 1861
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "75ff9fdf-7abd-4469-b2d9-ab62c5876f2f",
+            "label": "container_phase",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8fd2b808-0f44-41de-9cb3-34a943cdbefc",
+                    "label": "name_box",
+                    "texture": {
+                        "key": "name-box"
+                    },
+                    "x": 540,
+                    "y": 1845
+                },
+                {
+                    "type": "Container",
+                    "id": "fbad9c55-7b7c-49b6-8bad-0aedf9491b2d",
+                    "label": "container_doubleRuleBox",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4d555818-27b2-4bde-a7ca-1ec451b3d97a",
+                            "label": "ownPlayerRule2Holder",
+                            "texture": {
+                                "key": "ownPlayerRule2Holder"
+                            },
+                            "x": 539,
+                            "y": 1229
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d7ce52e3-8e9f-4e45-ad3e-0aa401d4979c",
+                            "label": "ownPlayer_Rule1_text",
+                            "scope": "CLASS",
+                            "x": 322,
+                            "y": 1037,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player2",
+                            "fontSize": "35px",
+                            "color": "#fbd775"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d898a910-a0d8-429f-b998-e58779047513",
+                            "label": "ownPlayer_Rule2_text",
+                            "scope": "CLASS",
+                            "x": 753,
+                            "y": 1035,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player2",
+                            "fontSize": "35px",
+                            "color": "#fbd775"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "976ac279-be05-4f7a-9ecc-53a53ea9ad00",
+                            "label": "ownPlayerTotalRules",
+                            "scope": "CLASS",
+                            "x": 539,
+                            "y": 1434,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player2",
+                            "fontSize": "40px",
+                            "color": "#f9bc80"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "251c4868-b61b-4bf5-8dd5-dbbe885447b2",
+                            "label": "ownPlayerScore",
+                            "scope": "CLASS",
+                            "x": 540,
+                            "y": 1864,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "100",
+                            "fontSize": "35px",
+                            "color": "#895925"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "93f85169-7cbe-45fe-be4d-adbf637fb2ec",
+                            "label": "container_ownPlayerRule1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "x": 330,
+                            "y": 1205
+                        },
+                        {
+                            "type": "Container",
+                            "id": "f6b4b1fe-f4f3-46bf-9e63-fee6b1925b23",
+                            "label": "container_ownPlayerRule2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "x": 770,
+                            "y": 1205
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "2549c911-b126-4320-903b-09ee6b58327e",
+            "label": "container_player2Box",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "x": 540,
+            "y": 250,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "064ee543-50ef-48ef-9a31-87deb373b68e",
+                    "label": "player2_two_rules",
+                    "scope": "CLASS",
+                    "y": 184,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "93408576-ec25-491e-9288-846da3b7008e",
+                            "label": "oppRule2",
+                            "texture": {
+                                "key": "oppRule2"
+                            },
+                            "x": -3,
+                            "y": -78
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6d16dec3-9080-4613-a57a-5131eee520d9",
+                            "label": "player2_Rule1_text",
+                            "scope": "CLASS",
+                            "x": -1,
+                            "y": -12,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player2",
+                            "fontSize": "30px",
+                            "color": "#915819"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "04c918b1-3037-4afa-8ccf-91d8c2f61995",
+                            "label": "player2_Rule2_text",
+                            "scope": "CLASS",
+                            "x": 4,
+                            "y": 90,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player2",
+                            "fontSize": "30px",
+                            "color": "#915819"
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "f9666aa9-0be2-4fe7-862d-5999f585e5f3",
+                    "label": "player2Name",
+                    "scope": "CLASS",
+                    "x": 8,
+                    "y": -173,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Player2",
+                    "fontSize": "35px",
+                    "color": "#fbd775"
+                },
+                {
+                    "type": "Text",
+                    "id": "7e00824f-ee6c-423b-8188-84b0617d1d34",
+                    "label": "player2Score",
+                    "scope": "CLASS",
+                    "x": 6,
+                    "y": 105,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "35px",
+                    "color": "#895925"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "4e16df32-1037-441b-8ced-fa99f8774efd",
+            "label": "container_player3Box",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "x": 790,
+            "y": 310,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "11403c10-0381-485d-8959-9a28593e95eb",
+                    "label": "player3Box",
+                    "texture": {
+                        "key": "score-display-board"
+                    },
+                    "y": 159
+                },
+                {
+                    "prefabId": "720fb102-78f3-4997-85ec-47bc193be2ee",
+                    "id": "2ccdaedf-9c73-4cd4-86e9-fbfd3c7d0409",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "playerProfile",
+                    "x": 5,
+                    "y": -17
+                },
+                {
+                    "type": "Text",
+                    "id": "42ec811c-f6c9-4737-84bb-da45dab09d67",
+                    "label": "player3Name",
+                    "scope": "CLASS",
+                    "x": 2,
+                    "y": 107,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Player2",
+                    "fontSize": "45px"
+                },
+                {
+                    "type": "Container",
+                    "id": "1891f620-fb0c-4a8b-85a7-bbe17b5d82b1",
+                    "label": "player3_two_rules",
+                    "scope": "CLASS",
+                    "y": 184,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "900eb245-3628-4530-be56-2f28d3f197d9",
+                            "label": "cardHolder2Player3",
+                            "texture": {
+                                "key": "Slicing-game-play"
+                            },
+                            "y": 114
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3c18708f-4fc6-4d87-b542-96582e0efa44",
+                            "label": "cardHolder1Player3",
+                            "texture": {
+                                "key": "Slicing-game-play"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "f88c3035-6e19-480d-942b-ae9647502350",
+                    "label": "player3Score",
+                    "scope": "CLASS",
+                    "x": 2,
+                    "y": 97,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fontSize": "35px"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "fbbd4b13-3876-46d0-9491-834831c50ff5",
+            "label": "container_buttons",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "x": 312,
+            "y": 1399,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1810d158-8152-4a3d-8163-3dc2962cff49",
+                    "label": "cancel_button",
+                    "texture": {
+                        "key": "cancel-button"
+                    },
+                    "x": -3,
+                    "y": -21
+                },
+                {
+                    "type": "Image",
+                    "id": "1a12f455-4ff6-4f07-be5f-9868e472e5f4",
+                    "label": "confirm_button",
+                    "texture": {
+                        "key": "confirm-button"
+                    },
+                    "x": 443,
+                    "y": -13
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "04f8114e-b049-4a1d-9100-6a58e7d30dd9",
+            "label": "back_card",
+            "scope": "CLASS",
+            "texture": {
+                "key": "phase-10-back-siede-card"
+            },
+            "x": 640,
+            "y": 824
+        },
+        {
+            "type": "Image",
+            "id": "458ce48f-42a7-46bc-8f84-1466858ca1f8",
+            "label": "cardHolder",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 137,
+            "hitArea.height": 206.95809063117812,
+            "texture": {
+                "key": "cardHolder"
+            },
+            "x": 440,
+            "y": 821
+        },
+        {
+            "type": "Container",
+            "id": "0274bd87-659d-4ab5-b6b0-24211d0898d5",
+            "label": "container_playerHand",
+            "useGameObjectName": true,
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "d7bd42d9-d65c-4f53-a1e4-67f09a74de0f",
+            "label": "container_openedDeck",
+            "useGameObjectName": true,
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "ba39cbb1-6011-4cb2-8cad-1770906919bc",
+            "label": "container_players",
+            "useGameObjectName": true,
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "8f69ec24-8f3d-4768-a7e2-1776b86d8c67",
+            "label": "container_tempCards",
+            "useGameObjectName": true,
+            "scope": "CLASS"
+        },
+        {
+            "type": "Image",
+            "id": "9b28f1b6-fe0e-49c1-88fc-96c2558f417e",
+            "label": "back_button",
+            "texture": {
+                "key": "back-button"
+            },
+            "x": 815,
+            "y": 1793
+        },
+        {
+            "type": "Image",
+            "id": "53436a48-29dd-4536-be34-d13545ece345",
+            "label": "setting_button",
+            "scope": "CLASS",
+            "texture": {
+                "key": "setting-button"
+            },
+            "x": 207,
+            "y": 1807
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

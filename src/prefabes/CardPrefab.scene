@@ -1,0 +1,174 @@
+{
+    "id": "50d50c96-8855-45bd-9955-91b332530c16",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "30584860-3c2b-45cc-a821-b92f0ed5177f",
+            "label": "container_1",
+            "components": [
+                "cardPreset"
+            ],
+            "x": 1.0237888026170197,
+            "y": -9,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b0ac9310-172e-4406-938c-5f7a94bc0856",
+                    "label": "cardSlicing",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cardSlicing"
+                    },
+                    "x": -2.0237888026170197,
+                    "y": 2,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "1b11cfa1-8270-48ac-b543-6de0482e2b81",
+                    "label": "cardNumber",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 4,
+                    "y": 1,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontSize": "100px",
+                    "color": "#060606ff"
+                },
+                {
+                    "type": "Container",
+                    "id": "626a31c8-3162-4333-a8a5-c90509647f70",
+                    "label": "container_cardBorders",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -51.02378880261702,
+                    "y": -94,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e69a839e-74a8-482b-bcd4-7f71aa69beee",
+                            "label": "card_border",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "card-border"
+                            },
+                            "x": 57,
+                            "y": 94,
+                            "scaleX": 1.48,
+                            "scaleY": 1.48,
+                            "tintTopLeft": "#000000",
+                            "tintTopRight": "#000000",
+                            "tintBottomLeft": "#0d0d0d",
+                            "tintBottomRight": "#090909",
+                            "tintFill": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ea96233a-0bc7-4b2c-a0f9-2cad0c7ea64d",
+                            "label": "corner_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "corner-2"
+                            },
+                            "x": 13,
+                            "y": 20,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "flipX": true,
+                            "flipY": true,
+                            "tintTopLeft": "#000000",
+                            "tintTopRight": "#070707",
+                            "tintBottomLeft": "#050505",
+                            "tintBottomRight": "#151515"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2c733a7c-0443-4763-adf3-397b4d6cef27",
+                            "label": "corner",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "corner-2"
+                            },
+                            "x": 100,
+                            "y": 166,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "tintTopLeft": "#121212",
+                            "tintTopRight": "#070707",
+                            "tintBottomLeft": "#050505",
+                            "tintBottomRight": "#151515"
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "510afd3e-d537-4d02-a9d1-a6eb33a08ca1",
+                    "label": "cardNumber_upper",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -40.02378880261702,
+                    "y": -73,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontSize": "30px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "222c7742-718c-46a4-871a-03906362de16",
+                    "label": "cardNumber_lower",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 49.97621119738298,
+                    "y": 74,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontSize": "30px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "4ee94cc7-5254-4855-8a5a-d39116e3f206",
+                    "label": "card_highLight",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "card-border"
+                    },
+                    "x": 6,
+                    "scaleX": 1.65,
+                    "scaleY": 1.65,
+                    "visible": false,
+                    "tintTopLeft": "#fff81c",
+                    "tintTopRight": "#fff81c",
+                    "tintBottomLeft": "#fff81c",
+                    "tintBottomRight": "#fff81c"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

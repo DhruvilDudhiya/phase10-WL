@@ -1,0 +1,298 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/icones/App-Icon.png",
+                "type": "image",
+                "key": "App-Icon"
+            },
+            {
+                "url": "assets/images/gamePlay/back-button.png",
+                "type": "image",
+                "key": "back-button"
+            },
+            {
+                "url": "assets/images/gamePlay/Background.png",
+                "type": "image",
+                "key": "Background"
+            },
+            {
+                "url": "assets/images/gamePlay/blue-card.png",
+                "type": "image",
+                "key": "blue-card"
+            },
+            {
+                "url": "assets/images/gamePlay/board.png",
+                "type": "image",
+                "key": "board"
+            },
+            {
+                "url": "assets/images/gamePlay/brown-box.png",
+                "type": "image",
+                "key": "brown-box"
+            },
+            {
+                "url": "assets/images/gamePlay/Bunny-name.png",
+                "type": "image",
+                "key": "Bunny-name"
+            },
+            {
+                "url": "assets/images/gamePlay/bunny-profile.png",
+                "type": "image",
+                "key": "bunny-profile"
+            },
+            {
+                "url": "assets/images/gamePlay/buttom-wood.png",
+                "type": "image",
+                "key": "buttom-wood"
+            },
+            {
+                "url": "assets/images/gamePlay/cancel-button.png",
+                "type": "image",
+                "key": "cancel-button"
+            },
+            {
+                "url": "assets/images/gamePlay/cancel-font.png",
+                "type": "image",
+                "key": "cancel-font"
+            },
+            {
+                "url": "assets/images/cardSlicing/card-border.png",
+                "type": "image",
+                "key": "card-border"
+            },
+            {
+                "url": "assets/images/gamePlay/card-dispaly-box.png",
+                "type": "image",
+                "key": "card-dispaly-box"
+            },
+            {
+                "url": "assets/images/gamePlay/card-display-popup.png",
+                "type": "image",
+                "key": "card-display-popup"
+            },
+            {
+                "url": "assets/images/cardSlicing/cardHolder.png",
+                "type": "image",
+                "key": "cardHolder"
+            },
+            {
+                "url": "src/managers/CardManager.js",
+                "type": "script",
+                "key": "CardManager"
+            },
+            {
+                "url": "src/prefabes/CardPrefab.js",
+                "type": "script",
+                "key": "CardPrefab"
+            },
+            {
+                "url": "src/components/cardPreset.js",
+                "type": "script",
+                "key": "cardPreset"
+            },
+            {
+                "url": "assets/images/cardSlicing/cardSlicing.png",
+                "type": "image",
+                "key": "cardSlicing"
+            },
+            {
+                "url": "src/managers/CheckRules.js",
+                "type": "script",
+                "key": "CheckRules"
+            },
+            {
+                "url": "assets/images/gamePlay/confirm-button.png",
+                "type": "image",
+                "key": "confirm-button"
+            },
+            {
+                "url": "assets/images/gamePlay/confirm-font.png",
+                "type": "image",
+                "key": "confirm-font"
+            },
+            {
+                "url": "assets/images/cardSlicing/corner-1.png",
+                "type": "image",
+                "key": "corner-1"
+            },
+            {
+                "url": "assets/images/cardSlicing/corner-2.png",
+                "type": "image",
+                "key": "corner-2"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/images/gamePlay/Duck-name.png",
+                "type": "image",
+                "key": "Duck-name"
+            },
+            {
+                "url": "assets/images/gamePlay/Duck-profile.png",
+                "type": "image",
+                "key": "Duck-profile"
+            },
+            {
+                "url": "src/managers/EmitManager.js",
+                "type": "script",
+                "key": "EmitManager"
+            },
+            {
+                "url": "src/managers/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/gamePlay/green-card.png",
+                "type": "image",
+                "key": "green-card"
+            },
+            {
+                "url": "src/managers/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "assets/images/gamePlay/loading-.png",
+                "type": "image",
+                "key": "loading-"
+            },
+            {
+                "url": "assets/images/gamePlay/name-bar.png",
+                "type": "image",
+                "key": "name-bar"
+            },
+            {
+                "url": "assets/images/gamePlay/name-box.png",
+                "type": "image",
+                "key": "name-box"
+            },
+            {
+                "url": "assets/images/gamePlay/oppRule2.png",
+                "type": "image",
+                "key": "oppRule2"
+            },
+            {
+                "url": "assets/images/gamePlay/ownPlayerRule2Holder.png",
+                "type": "image",
+                "key": "ownPlayerRule2Holder"
+            },
+            {
+                "url": "assets/images/gamePlay/phase-10-back-siede-card.png",
+                "type": "image",
+                "key": "phase-10-back-siede-card"
+            },
+            {
+                "url": "assets/images/icones/phase-10-logo-2.png",
+                "type": "image",
+                "key": "phase-10-logo-2"
+            },
+            {
+                "url": "src/managers/PlayerManager.js",
+                "type": "script",
+                "key": "PlayerManager"
+            },
+            {
+                "url": "src/prefabes/PlayerProfile.js",
+                "type": "script",
+                "key": "PlayerProfile"
+            },
+            {
+                "url": "assets/images/gamePlay/profile-bar.png",
+                "type": "image",
+                "key": "profile-bar"
+            },
+            {
+                "url": "assets/images/gamePlay/profile-bg.png",
+                "type": "image",
+                "key": "profile-bg"
+            },
+            {
+                "url": "assets/images/gamePlay/profile-loading.png",
+                "type": "image",
+                "key": "profile-loading"
+            },
+            {
+                "url": "assets/images/gamePlay/profile-name-button.png",
+                "type": "image",
+                "key": "profile-name-button"
+            },
+            {
+                "url": "assets/images/gamePlay/Profile-popup.png",
+                "type": "image",
+                "key": "Profile-popup"
+            },
+            {
+                "url": "assets/images/gamePlay/red-card.png",
+                "type": "image",
+                "key": "red-card"
+            },
+            {
+                "url": "assets/images/gamePlay/run-of-6-.png",
+                "type": "image",
+                "key": "run-of-6-"
+            },
+            {
+                "url": "assets/images/gamePlay/score-display-board.png",
+                "type": "image",
+                "key": "score-display-board"
+            },
+            {
+                "url": "assets/images/gamePlay/set-of-4.png",
+                "type": "image",
+                "key": "set-of-4"
+            },
+            {
+                "url": "assets/images/gamePlay/set-of-buttons.png",
+                "type": "image",
+                "key": "set-of-buttons"
+            },
+            {
+                "url": "assets/images/gamePlay/setting-button.png",
+                "type": "image",
+                "key": "setting-button"
+            },
+            {
+                "url": "assets/images/cardSlicing/skip-card.png",
+                "type": "image",
+                "key": "skip-card"
+            },
+            {
+                "url": "assets/images/gamePlay/Slicing-game-play.png",
+                "type": "image",
+                "key": "Slicing-game-play"
+            },
+            {
+                "url": "src/managers/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "src/managers/TweenManager.js",
+                "type": "script",
+                "key": "TweenManager"
+            },
+            {
+                "url": "assets/images/cardSlicing/wild-card.png",
+                "type": "image",
+                "key": "wild-card"
+            },
+            {
+                "url": "assets/images/gamePlay/yellow-card.png",
+                "type": "image",
+                "key": "yellow-card"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
